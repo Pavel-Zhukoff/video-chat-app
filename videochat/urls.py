@@ -10,5 +10,5 @@ urlpatterns = [
     path('room/<uuid:room_id>', room, name='room'),
 ]
 
-urlpatterns += staticfiles_urlpatterns()
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns += staticfiles_urlpatterns()
