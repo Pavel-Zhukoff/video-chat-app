@@ -3,7 +3,7 @@ const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(null, {
   host: 'peerjs-pavel-zhukoff.herokuapp.com',
   port: 443,
-    key: 'peerjs',
+  key: 'peerjs',
   debug: 3
 });
 const myVideo = document.createElement('video')
@@ -19,6 +19,7 @@ navigator.mediaDevices.getUserMedia({
     call.answer(stream)
     const video = document.createElement('video')
     call.on('stream', userVideoStream => {
+      console.log(userVideoStream)
       addVideoStream(video, userVideoStream)
     })
   })
