@@ -1,4 +1,4 @@
-const socket = io('https://frozen-cliffs-23611.herokuapp.com')
+const socket = io('https://frozen-cliffs-23611.herokuapp.com:5000')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(null, {
   host: 'peerjs-pavel-zhukoff.herokuapp.com',
