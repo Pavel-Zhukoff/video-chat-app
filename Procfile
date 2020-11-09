@@ -1,1 +1,1 @@
- web: gunicorn -b 0.0.0.0:8000 --threads=1000 -k eventlet -w 1 config.wsgi:application --log-file -
+ web: gunicorn --threads=1000 -k eventlet -w 1 config.wsgi:application --log-file -
