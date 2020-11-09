@@ -6,6 +6,7 @@ from config import settings
 from .views import room, room_list
 
 urlpatterns = [
+    path('', home, name='home'),
     path('room/', room_list, name='room-list'),
     path('room/<uuid:room_id>', room, name='room'),
 ]

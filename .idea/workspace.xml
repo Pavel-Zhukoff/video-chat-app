@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a85de-638f-446b-88de-ca8479de4c35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videochat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/videochat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videochat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/videochat/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,30 +20,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding>
-                <element signature="e#222#231#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="520">
               <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
                 <element signature="e#630#672#0" expanded="true" />
@@ -49,10 +32,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/confirence_socket/views.py">
+        <entry file="file://$PROJECT_DIR$/videochat/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="160">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/videochat/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -61,20 +56,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/settings.py">
+        <entry file="file://$PROJECT_DIR$/videochat/templates/room.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="97" column="18" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
-              <folding>
-                <element signature="e#306#315#0" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videochat/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -83,6 +79,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -104,11 +101,9 @@
         <option value="$PROJECT_DIR$/videochat/templates/room.html" />
         <option value="$PROJECT_DIR$/confirence_server/requirements.txt" />
         <option value="$PROJECT_DIR$/script.ps1" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/confirence_server/script.bat" />
         <option value="$PROJECT_DIR$/confirence_server/Procfile" />
         <option value="$PROJECT_DIR$/static/js/main.js" />
-        <option value="$PROJECT_DIR$/videochat/urls.py" />
         <option value="$PROJECT_DIR$/confirence_server/server.py" />
         <option value="$PROJECT_DIR$/config/wsgi.py" />
         <option value="$PROJECT_DIR$/config/urls.py" />
@@ -117,6 +112,11 @@
         <option value="$PROJECT_DIR$/confirence_socket/views.py" />
         <option value="$PROJECT_DIR$/config/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/test/client.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/videochat/urls.py" />
+        <option value="$PROJECT_DIR$/videochat/templates/home.html" />
+        <option value="$PROJECT_DIR$/videochat/views.py" />
       </list>
     </option>
   </component>
@@ -151,12 +151,13 @@
             <path>
               <item name="VideoConfirence" type="b2602c69:ProjectViewProjectNode" />
               <item name="VideoConfirence" type="462c0819:PsiDirectoryNode" />
-              <item name="confirence_socket" type="462c0819:PsiDirectoryNode" />
+              <item name="videochat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VideoConfirence" type="b2602c69:ProjectViewProjectNode" />
               <item name="VideoConfirence" type="462c0819:PsiDirectoryNode" />
               <item name="videochat" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,6 +166,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/confirence_server" />
@@ -233,22 +235,22 @@
       <workItem from="1604827603461" duration="21006000" />
       <workItem from="1604908083797" duration="2016000" />
       <workItem from="1604915868718" duration="16000" />
-      <workItem from="1604925712270" duration="9477000" />
+      <workItem from="1604925712270" duration="12060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40820000" />
+    <option name="totallyTimeSpent" value="43403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1986014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1986014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31994644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -258,7 +260,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4631861" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4631861" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -275,27 +277,10 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/videochat/templates/room.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videochat/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/master">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -354,16 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videochat/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -408,15 +383,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/urls.py">
+    <entry file="file://$PROJECT_DIR$/master">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="e#630#672#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="562">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/test/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="868" column="12" selection-start-line="868" selection-start-column="12" selection-end-line="868" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -428,8 +413,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/config/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#630#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videochat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videochat/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videochat/templates/room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videochat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
