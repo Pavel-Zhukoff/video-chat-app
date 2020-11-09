@@ -1,1 +1,1 @@
- web: gunicorn config.wsgi --log-file -
+ web: gunicorn -k eventlet config.wsgi --log-file -
