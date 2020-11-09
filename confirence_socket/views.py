@@ -5,11 +5,14 @@ import eventlet
 
 import socketio
 
-from config import wsgi
+from config import wsgi, settings
 
-sio = socketio.Server(logger=True,
+if settings.DEBUG:
+    sio = socketio.Server(logger=True,
                       engineio_logger=True,
                       async_mode='eventlet')
+else:
+    sio = socketio.Server(async_mode='eventlet')
 
 basedir = os.path.dirname(os.path.realpath(__file__))
 

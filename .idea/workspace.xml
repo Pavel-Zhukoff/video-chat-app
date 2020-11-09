@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a85de-638f-446b-88de-ca8479de4c35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/videochat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/videochat/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirence_socket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/confirence_socket/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +39,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videochat/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
               <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/confirence_socket/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,7 +117,6 @@
         <option value="$PROJECT_DIR$/config/urls.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/script.bat" />
-        <option value="$PROJECT_DIR$/confirence_socket/views.py" />
         <option value="$PROJECT_DIR$/config/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/test/client.py" />
@@ -113,6 +124,7 @@
         <option value="$PROJECT_DIR$/videochat/templates/home.html" />
         <option value="$PROJECT_DIR$/videochat/urls.py" />
         <option value="$PROJECT_DIR$/videochat/views.py" />
+        <option value="$PROJECT_DIR$/confirence_socket/views.py" />
       </list>
     </option>
   </component>
@@ -143,6 +155,11 @@
               <item name="VideoConfirence" type="b2602c69:ProjectViewProjectNode" />
               <item name="VideoConfirence" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VideoConfirence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VideoConfirence" type="462c0819:PsiDirectoryNode" />
+              <item name="confirence_socket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VideoConfirence" type="b2602c69:ProjectViewProjectNode" />
@@ -232,12 +249,12 @@
       <workItem from="1604827603461" duration="21006000" />
       <workItem from="1604908083797" duration="2016000" />
       <workItem from="1604915868718" duration="16000" />
-      <workItem from="1604925712270" duration="13816000" />
+      <workItem from="1604925712270" duration="14051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45159000" />
+    <option name="totallyTimeSpent" value="45394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,7 +269,7 @@
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1986014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1986014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,7 +283,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4631861" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24096386" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -369,16 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/confirence_socket/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -459,6 +466,16 @@
           <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confirence_socket/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
