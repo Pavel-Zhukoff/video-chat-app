@@ -19,7 +19,7 @@ basedir = os.path.dirname(os.path.realpath(__file__))
 
 @sio.event
 def connect(sid, environ):
-    print(environ)
+    pass
 
 
 @sio.on('join-room')
