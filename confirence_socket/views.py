@@ -9,7 +9,7 @@ from config import wsgi
 
 sio = socketio.Server(logger=True,
                       engineio_logger=True,
-                      async_mode='gunicorn')
+                      async_mode='eventlet')
 
 basedir = os.path.dirname(os.path.realpath(__file__))
 @sio.event
