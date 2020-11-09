@@ -12,6 +12,8 @@ sio = socketio.Server(logger=True,
                       async_mode='eventlet')
 
 basedir = os.path.dirname(os.path.realpath(__file__))
+
+
 @sio.event
 def connect(sid, environ):
     print(environ)
