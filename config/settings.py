@@ -38,6 +38,13 @@ STATICFILES_DIRS = [
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
+# Celery
+CELERY_BROKER_URL = os.environ.get('DJANGO_REDIS', 'redis://localhost:6379')
+CELERY_RESULT_BACKEND = os.environ.get('DJANGO_REDIS', 'redis://localhost:6379')
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TASK_SERIALIZER = 'json'
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -121,14 +128,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 
 USE_L10N = True
 
 USE_TZ = True
-
-
-
-

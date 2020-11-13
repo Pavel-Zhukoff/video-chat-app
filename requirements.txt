@@ -5,3 +5,4 @@ eventlet
 gunicorn
 python-socketio
 psycopg2
+Celery

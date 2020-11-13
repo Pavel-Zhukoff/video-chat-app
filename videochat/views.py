@@ -17,11 +17,11 @@ class RoomType(Enum):
 def get_room_model_object(room_id):
     """ return room with its type by room_id """
 
-    if PasswordProtectedRoom.objects.filter(id=room_id).exists():
+    if PasswordProtectedRoom.objects.filter(id=room_id, available=True).exists():
         return {'room': PasswordProtectedRoom.objects.get(id=room_id), 'type': RoomType.PASSWORD_PROTECTED}
-    elif PrivateRoom.objects.filter(id=room_id).exists():
+    elif PrivateRoom.objects.filter(id=room_id, available=True).exists():
         return {'room': PrivateRoom.objects.get(id=room_id), 'type': RoomType.PRIVATE}
-    elif OpenRoom.objects.filter(id=room_id).exists():
+    elif OpenRoom.objects.filter(id=room_id, available=True).exists():
         return {'room': OpenRoom.objects.get(id=room_id), 'type': RoomType.PRIVATE}
     return None
 

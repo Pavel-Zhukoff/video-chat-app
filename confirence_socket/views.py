@@ -6,6 +6,7 @@ import eventlet
 import socketio
 
 from config import wsgi, settings
+from videochat.models import OpenRoom
 
 if settings.DEBUG:
     sio = socketio.Server(logger=True,
@@ -24,10 +25,12 @@ def connect(sid, environ):
 
 @sio.on('join-room')
 def join_room(sid, room_id, user_peer_id):
-    print(user_peer_id)
-    sio.enter_room(sid, room_id)
-    sio.save_session(sid , {'room_id': room_id, 'peer_id': user_peer_id})
-    sio.emit('user-connected', user_peer_id, room=room_id, skip_sid=sid)
+    if OpenRoom.objects.filter(id=room_id, available=True).exists():
+        sio.enter_room(sid, room_id)
+        sio.save_session(sid , {'room_id': room_id, 'peer_id': user_peer_id})
+        sio.emit('user-connected', user_peer_id, room=room_id, skip_sid=sid)
+    else:
+        sio.close_room(room_id)
 
 
 @sio.event

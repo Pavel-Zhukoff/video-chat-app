@@ -12,6 +12,8 @@ class OpenRoom(models.Model):
     start_time = models.DateTimeField('Время начала')
     finish_time = models.DateTimeField('Время окончания')
 
+    available = models.BooleanField('Комната активна', default=True, editable=False)
+
     def get_absolute_url(self):
         return reverse_lazy('room', args=[self.id])
 
