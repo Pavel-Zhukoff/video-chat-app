@@ -1,17 +1,12 @@
-from django.shortcuts import render
-
 import os
-import eventlet
 
 import socketio
 
-from config import wsgi, settings
+from config import settings
 from videochat.models import OpenRoom
 
 if settings.DEBUG:
-    sio = socketio.Server(logger=True,
-                      engineio_logger=True,
-                      async_mode='eventlet')
+    sio = socketio.Server(logger=True, ngineio_logger=True, async_mode='eventlet')
 else:
     sio = socketio.Server(async_mode='eventlet')
 

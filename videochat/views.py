@@ -3,8 +3,8 @@ from enum import Enum
 from django.http import HttpResponse
 from django.shortcuts import render
 
-from videochat.forms import PasswordRoomEnterForm
-from .models import OpenRoom, PasswordProtectedRoom, PrivateRoom
+from .forms import PasswordRoomEnterForm
+from videochat.models import OpenRoom, PasswordProtectedRoom, PrivateRoom
 
 
 class RoomType(Enum):
@@ -22,7 +22,7 @@ def get_room_model_object(room_id):
     elif PrivateRoom.objects.filter(id=room_id, available=True).exists():
         return {'room': PrivateRoom.objects.get(id=room_id), 'type': RoomType.PRIVATE}
     elif OpenRoom.objects.filter(id=room_id, available=True).exists():
-        return {'room': OpenRoom.objects.get(id=room_id), 'type': RoomType.PRIVATE}
+        return {'room': OpenRoom.objects.get(id=room_id), 'type': RoomType.OPEN}
     return None
 
 

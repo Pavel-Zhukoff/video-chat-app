@@ -4,5 +4,6 @@ dj-database-url
 eventlet
 gunicorn
 python-socketio
-psycopg2
+psycopg2-binary
 Celery
+redis

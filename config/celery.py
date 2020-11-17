@@ -10,7 +10,7 @@ celery_app.autodiscover_tasks()
 
 celery_app.conf.beat_schedule = {
     'check_room_availability': {
-        'task': 'videochat.task.check_room_availability',
+        'task': 'app.videochat.task.check_room_availability',
         'schedule': crontab()
     }
 }

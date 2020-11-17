@@ -1,9 +1,6 @@
-from django.conf.urls.static import static
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.urls import path
 
-from config import settings
-from .views import room, room_list, home
+from videochat.views import room, room_list, home
 
 urlpatterns = [
     path('', home, name='home'),
